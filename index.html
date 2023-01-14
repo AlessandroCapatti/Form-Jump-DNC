@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escola DNC | Jumpy</title>
+    <link rel="stylesheet" href="assets/Style.css">
+<body>
+    <Header>
+        <img src="assets/Imagens/logoDnc.svg" width="180px">
+    </Header>
+    <container>
+        <Div id="logo-jumpy">
+            <img src="assets/Imagens/logoJumpy.svg" width="350px">
+            <span>Bem vindo ao Jumpy!</span>
+        </Div>
+        <form id="form">
+            <!-- Nome Completo -->
+            <div class="divname">
+              <label>Nome Completo:</label>
+              <input type="text" class="inputs-required" id="username" placeholder="Nome Completo">
+              <span class="span-required" id="usernameError" >*Campo Obrigatório*</span>
+            </div>
+            <!-- Email -->
+            <div class="divEmail">
+                <label>Email:</label>
+                <input type="text" id="Email" id="emailValue" class="inputs-required" placeholder="Email@email.com">
+                <span class="span-required" id="emailError">*Campo Obrigatório*</span>
+              </div>
+              <!-- Telefone -->
+              <div class="divTelefone">
+                <label>Telefone:</label>
+                <input type="number" id="telephoneValue" class="inputs-required" placeholder="(24) 991513-4965">
+                <span class="span-required" id="telephoneError" >*Campo Obrigatório*</span>
+              </div>
+              <!-- CPF-->
+              <div class="divCpf">
+                <label>CPF:</label>
+                <input type="number" id="cpfValue"class="inputs-required" placeholder="452.849.235-980">
+                <span class="span-required" id="cpfError">*Campo Obrigatório*</span>
+              </div>
+              <!-- Senha -->
+            <div class="divPassword">
+              <label for="exampleInputPassword1" class="form-label">Senha:</label>
+              <input type="password" class="inputs-required" id="passwordValue" placeholder="*******************">
+              <span class="span-required" id="passwordError" >*Campo Obrigatório*</span>
+            </div>
+            <!-- Botão "Cadastrar" -->
+            <button type="submit" id="btnShow" value="Cadastrar">Cadastrar</button>
+            <div class="span-validation">
+            <span class="validation" id="not-registered">Campos obrigatórios não registrados.</span>           
+            </div>
+            <div class="registered">
+              <span id="registered">Sucesso!</span>
+            </div>
+          </form>
+    </container>
+    <script src="script.js"></script>
+</body>
+</html>

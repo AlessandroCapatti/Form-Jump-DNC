@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Inter&family=M+PLUS+1&family=Raleway:ital,wght@0,400;0,700;0,800;0,900;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #2D2D2D;
+    ;
+}
+
+header img {
+    margin-left: 20px;
+    padding: 25px;
+}
+
+container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo-jumpy {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo-jumpy span {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Helvetica';
+    padding: 30px;
+
+    color: white;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    position: relative;
+    right: 14px;
+    font-size: 25px;
+    display: flex;
+    padding: 15px;
+    font-family: 'Raleway';
+
+
+    color: white;
+}
+
+input {
+    font-size: 15px;
+    font-family: 'Raleway';
+    padding: 0px 10px;
+    height: 60px;
+    width: 590px;
+    border-radius: 15px;
+    border: #0C70F2;
+
+    
+
+}
+
+
+button {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: #0C70F2;
+    font-family: 'Raleway';
+    margin-top: 35px;
+    height: 60px;
+    width: 609px;
+    border-radius: 15px;
+    border: none;
+
+    color: white;
+}
+
+.span-required {
+    display: flex;
+    font-family: 'Raleway';
+    justify-content: space-around;
+    margin-left: 460px;
+    visibility: hidden;
+    padding: 0px;
+
+
+
+    color: #E73550;
+}
+
+#not-registered {
+
+    margin-right: 330px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    visibility: hidden;
+    font-family: 'Raleway';
+    color: #E73550;
+
+}
+
+.registered {
+    display: flex;
+    position: relative;
+    right: 270px;
+    bottom: 20px;
+    margin-bottom: 20px;
+
+    font-family: 'Raleway';
+    color: #0F7B0F;
+    ;
+
+}
+
+#registered {
+    visibility: hidden;
+}
